@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		6C975EF41A749CA900D29E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C975EF31A749CA900D29E83 /* AppDelegate.m */; };
 		6C975EF61A749CA900D29E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C975EF51A749CA900D29E83 /* main.m */; };
-		6C975EF91A749CA900D29E83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C975EF81A749CA900D29E83 /* ViewController.m */; };
 		6C975EFB1A749CA900D29E83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C975EFA1A749CA900D29E83 /* Images.xcassets */; };
 		6C975EFE1A749CA900D29E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C975EFC1A749CA900D29E83 /* Main.storyboard */; };
 		6C975F0A1A749CA900D29E83 /* HW2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C975F091A749CA900D29E83 /* HW2Tests.m */; };
+		6C975F151A74AF3700D29E83 /* MasterVolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C975F141A74AF3700D29E83 /* MasterVolumeViewController.m */; };
+		6C975F1D1A74AFA800D29E83 /* NumberDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C975F1C1A74AFA800D29E83 /* NumberDisplayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,15 @@
 		6C975EF21A749CA900D29E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C975EF31A749CA900D29E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6C975EF51A749CA900D29E83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C975EF71A749CA900D29E83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C975EF81A749CA900D29E83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C975EFA1A749CA900D29E83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6C975EFD1A749CA900D29E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C975F031A749CA900D29E83 /* HW2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C975F081A749CA900D29E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C975F091A749CA900D29E83 /* HW2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW2Tests.m; sourceTree = "<group>"; };
+		6C975F131A74AF3700D29E83 /* MasterVolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterVolumeViewController.h; sourceTree = "<group>"; };
+		6C975F141A74AF3700D29E83 /* MasterVolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterVolumeViewController.m; sourceTree = "<group>"; };
+		6C975F1B1A74AFA800D29E83 /* NumberDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberDisplayViewController.h; sourceTree = "<group>"; };
+		6C975F1C1A74AFA800D29E83 /* NumberDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberDisplayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 			children = (
 				6C975EF21A749CA900D29E83 /* AppDelegate.h */,
 				6C975EF31A749CA900D29E83 /* AppDelegate.m */,
-				6C975EF71A749CA900D29E83 /* ViewController.h */,
-				6C975EF81A749CA900D29E83 /* ViewController.m */,
 				6C975EFA1A749CA900D29E83 /* Images.xcassets */,
 				6C975EFC1A749CA900D29E83 /* Main.storyboard */,
+				6C975F131A74AF3700D29E83 /* MasterVolumeViewController.h */,
+				6C975F141A74AF3700D29E83 /* MasterVolumeViewController.m */,
+				6C975F1B1A74AFA800D29E83 /* NumberDisplayViewController.h */,
+				6C975F1C1A74AFA800D29E83 /* NumberDisplayViewController.m */,
 				6C975EF01A749CA900D29E83 /* Supporting Files */,
 			);
 			path = HW2;
@@ -215,8 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C975EF91A749CA900D29E83 /* ViewController.m in Sources */,
 				6C975EF61A749CA900D29E83 /* main.m in Sources */,
+				6C975F151A74AF3700D29E83 /* MasterVolumeViewController.m in Sources */,
+				6C975F1D1A74AFA800D29E83 /* NumberDisplayViewController.m in Sources */,
 				6C975EF41A749CA900D29E83 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
